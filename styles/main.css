@@ -1,0 +1,43 @@
+@import "fishes.css";
+
+.header {
+text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.bordered {
+    border: 1px dotted goldenrod;
+}
+.bottom-space{
+    margin-bottom: 3rem;
+}
+
+.fishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fish {
+    flex-basis: 16%;
+    }
+
+.fish__image {
+    max-height: 10rem;
+}
+
+.quotes {
+display: flex;
+flex:wrap;
+justify-content: space-around;
+}
+
+.flexwrap{
+    flex:wrap;
+}
+.locations {
+
+}
