@@ -1,43 +1,31 @@
 @import "fishes.css";
+@import "locations.css";
+@import "quotes.css";
+@import "tips.css";
+
+body {
+    /*background-image: url("https://cdn.wallpapersafari.com/80/32/bRBCuL.jpg");*/
+    background-color: rgb(71, 139, 216);
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px 3px #727b80;
+   }
 
 .header {
 text-align: center;
 }
 
+
 .container {
     display: flex;
 }
 
-.bordered {
-    border: 1px dotted goldenrod;
+.flex-container-left{
+    flex: 4;
 }
+
 .bottom-space{
     margin-bottom: 3rem;
 }
-
-.fishes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.fish {
-    flex-basis: 16%;
-    }
-
-.fish__image {
-    max-height: 10rem;
-}
-
-.quotes {
-display: flex;
-flex:wrap;
-justify-content: space-around;
-}
-
 .flexwrap{
     flex:wrap;
-}
-.locations {
-
 }

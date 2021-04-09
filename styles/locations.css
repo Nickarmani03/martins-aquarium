@@ -1,0 +1,13 @@
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.location__image {
+    max-width: 25rem;
+    border: 1px solid #111010        
+}
+.center {
+    text-align: center;
+}

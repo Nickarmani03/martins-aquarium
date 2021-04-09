@@ -1,0 +1,11 @@
+.quotes {
+    display: flex;
+    flex:wrap;
+    justify-content: space-around;
+}
+
+.quotes__border {
+        border: 1px solid #111010;
+        padding: 1.15rem;
+        margin: 0.5rem;
+    }
